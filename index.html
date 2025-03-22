@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+        <h1> Payment Form</h1>
+    </fieldset>
+    <fieldset>
+        <p>Name* : <input type="text"name ="name" required></p>
+    </fieldset> 
+    <fieldset>
+    <legend>Gender</legend>  
+        <p>Male <input type="radio"name="male"></p>
+        <p>Female <input type="radio"name="female"></p>
+    </fieldset>
+     <fieldset>
+        <p>Address : <textarea name="address" id="address" rows="10" cols="50"></textarea></p>
+     </fieldset>
+     <Fieldset>
+     <p>E-Mail: <input type="email" name="email" id="email" ></p>
+    </Fieldset>
+    <fieldset>
+        <p>Pincode: <input type="number" name="pincode" id="pincode"></p>
+    </fieldset>
+    <fieldset><h2> Payment info: </h2>
+    <ol>Card type:
+        <ul><input type="radio" id="a" name="card" value="mastercard"><label for="mastercard">Mastercard</label></ul>
+        <ul> <input type="radio" id="b" name="=card" value="debitcard"> <label for="debitcard">Debitcard</label></ul>
+        <ul><input type="radio" id="c" name="card" value="creditcard"> <label for="creditcard">Creditcard</label> </ul>
+    <!-- or other way by different code -->
+     <select name="card_type" id="card">
+        <option value="" --select card type--></option>
+        <option value="visa">Visa</option>
+        <option value="internet banking">Internet Banking</option>
+        <option value="Rupay">Rupay</option>
+        <option value=""></option>
+     </select>
+     <p>Card number: <input type="number"></p>
+     </ol>
+     <p>Expire Date: <input type="date" id="exp" name="exp_date"></p>
+     <p>CVV: <input type="password"></p>
+     </fieldset>
+     <fieldset>
+     <input type="submit" value="Pay Now!">
+     </fieldset>
+     
+    
+
+
+    </form>
+
+    
+</body>
+</html>
